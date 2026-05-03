@@ -1,0 +1,11 @@
+file_name,raw_rows,cleaned_rows,raw_columns,cleaned_columns,duplicates_removed,missing_values_after_cleaning
+customers.csv,650,650,9,9,0,33
+orders.csv,1250,1250,11,11,0,25
+deliveries.csv,950,950,13,14,0,116
+drivers.csv,170,170,8,8,0,7
+vehicles.csv,120,120,8,8,0,4
+hubs.csv,8,8,5,5,0,0
+complaints.csv,320,320,10,10,0,16
+incidents.csv,280,280,7,7,0,17
+app_events.csv,640,640,10,10,0,144
+data_dictionary.csv,9,9,3,3,0,0
