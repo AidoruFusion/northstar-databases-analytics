@@ -1,25 +1,52 @@
 # NorthStar Databases and Analytics Project
 
-This repository contains the Google Colab notebooks and cleaned datasets for the NorthStar Urban Mobility and Logistics case study.
+This repository contains the Google Colab notebooks and datasets for the NorthStar Urban Mobility and Logistics case study.
 
 ## Project aim
 
-The aim of this project is to clean, analyse, and prepare the NorthStar dataset for database development and analytics.
+The aim of this project is to clean, analyse, and prepare the NorthStar dataset for database development, SQL analysis, MongoDB modelling, and query optimisation.
 
 ## Repository structure
 
-- `notebooks/` contains Google Colab notebooks.
-- `data/cleaned_csv/` stores cleaned CSV files.
-- `data/json/` stores JSON files prepared for MongoDB.
-- `mongodb/` contains MongoDB Atlas and PyMongo notebooks.
+- `notebooks/` contains the Google Colab notebooks.
+- `data/raw/` contains the original CSV files.
+- `data/cleaned/csv/` contains the cleaned CSV files.
+- `data/cleaned/json/` contains JSON files prepared for MongoDB.
+- `data/analysis/sql_r_outputs/` contains SQL in R output tables, where applicable.
 
-## Notebook 01
+## Workflow
+
+### Notebook 01: Python data cleaning
 
 `01_python_data_cleaning.ipynb` cleans the raw CSV files by:
-- checking missing values;
-- checking duplicate records;
-- standardising inconsistent zone names such as Central, CENTRAL, and Ctr;
+
+- checking missing values and duplicate records;
+- standardising inconsistent zone names such as `Central`, `CENTRAL`, and `Ctr`;
 - converting date and numeric columns;
-- validating values;
+- validating unrealistic or invalid values;
 - saving cleaned CSV files;
-- converting cleaned CSV files to JSON for MongoDB.
+- converting cleaned CSV files into JSON format for MongoDB.
+
+### Notebook 02: MongoDB Atlas development
+
+`MongoDB_Notebook.ipynb` demonstrates the MongoDB part of the project by:
+
+- connecting Google Colab to MongoDB Atlas using PyMongo;
+- uploading cleaned JSON files as collections;
+- demonstrating CRUD operations;
+- remodelling selected data into an integrated `Operational_Cases` collection;
+- creating indexes;
+- using `explain()` to review query performance.
+
+### Notebook 03: SQL in R analysis
+
+`R_SQL_Notebook.ipynb` uses R and `sqldf` to query the cleaned datasets by:
+
+- loading cleaned CSV files from the GitHub project folder;
+- applying SQL filtering, sorting, grouping, and joins;
+- analysing orders, deliveries, complaints, incidents, and driver performance;
+- producing outputs that support the final report.
+
+## Summary
+
+The project follows a clear workflow from raw data cleaning to MongoDB database development and SQL-based analysis. The outputs support the NorthStar case study by connecting fragmented operational data and preparing it for evidence-based decision-making.
