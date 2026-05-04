@@ -18,7 +18,7 @@ The aim of this project is to clean, analyse, and prepare the NorthStar dataset 
 
 ### Notebook 01: Python data cleaning
 
-`Database Assignment` cleans the raw CSV files by:
+`Database Assignment.ipynb` cleans the raw CSV files by:
 
 - checking missing values and duplicate records;
 - standardising inconsistent zone names such as `Central`, `CENTRAL`, and `Ctr`;
