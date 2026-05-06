@@ -1,0 +1,47 @@
+[
+    {
+        "file_name":"hubs.csv",
+        "record_count":8,
+        "description":"Operational hubs and control points"
+    },
+    {
+        "file_name":"customers.csv",
+        "record_count":650,
+        "description":"Customer master data with engagement and loyalty metrics"
+    },
+    {
+        "file_name":"drivers.csv",
+        "record_count":170,
+        "description":"Driver workforce data with training and rating information"
+    },
+    {
+        "file_name":"vehicles.csv",
+        "record_count":120,
+        "description":"Fleet asset data including battery and maintenance indicators"
+    },
+    {
+        "file_name":"orders.csv",
+        "record_count":1250,
+        "description":"Service orders across mobility and logistics operations"
+    },
+    {
+        "file_name":"deliveries.csv",
+        "record_count":950,
+        "description":"Operational dispatch and completion outcomes"
+    },
+    {
+        "file_name":"incidents.csv",
+        "record_count":280,
+        "description":"Delivery and asset incident records"
+    },
+    {
+        "file_name":"complaints.csv",
+        "record_count":320,
+        "description":"Customer complaints and compensation handling"
+    },
+    {
+        "file_name":"app_events.csv",
+        "record_count":640,
+        "description":"Digital platform events suitable for MongoDB reshaping"
+    }
+]
