@@ -1,0 +1,10 @@
+"dataset","rows","columns"
+"customers",650,9
+"orders",1250,11
+"deliveries",950,14
+"drivers",170,8
+"vehicles",120,8
+"hubs",8,5
+"complaints",320,10
+"incidents",280,7
+"app_events",640,10

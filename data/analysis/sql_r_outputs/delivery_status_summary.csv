@@ -1,0 +1,4 @@
+"delivery_status","total_deliveries","average_duration_hours","average_distance_km","average_cost"
+"OnTime",616,7.36,13.78,12.68
+"Delayed",202,13.51,14.67,13.14
+"Failed",132,17.78,13.37,13.15
