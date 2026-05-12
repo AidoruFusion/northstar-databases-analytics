@@ -2,6 +2,11 @@
 
 This repository contains the Google Colab notebooks and datasets for the NorthStar Urban Mobility and Logistics case study.
 
+# Links to Colab
+https://colab.research.google.com/drive/1OjJlW3RREsP7zkhmLx9tlNWpaZfl12Pm
+https://colab.research.google.com/drive/1oPyAqXsMQnPyFTuKhjcx1vC-DO_6XSpz
+https://colab.research.google.com/drive/1vJUG4LT5KGzmmGEylwpLUcnJA2oWQA8V
+
 ## Project aim
 
 The aim of this project is to clean, analyse, and prepare the NorthStar dataset for database development, SQL analysis, MongoDB modelling, and query optimisation.
